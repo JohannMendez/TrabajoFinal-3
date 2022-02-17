@@ -30,141 +30,150 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  /* MENU */
-  /* GRID */
-  /* ANIMACIONES */ }
+  justify-content: space-around; }
   .listas iframe {
     background-color: black;
     width: 800px;
     height: 400px;
     padding: 40px 565px; }
-  .listas .titulo {
-    color: white;
-    font-family: 'Bungee Inline', cursive;
-    text-align: center;
-    font-size: 80px; }
-  .listas .propaganda video {
-    background-color: black;
-    width: 800px;
-    height: 400px;
-    padding: 40px 565px; }
-  .listas .indumentaria {
-    width: 200px;
-    height: 200px; }
-  .listas .menu {
+
+.titulo {
+  color: white;
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size: 80px; }
+
+.propaganda video {
+  background-color: black;
+  width: 800px;
+  height: 400px;
+  padding: 40px 565px; }
+
+.indumentaria {
+  width: 200px;
+  height: 200px; }
+
+/* MENU */
+.menu {
+  background-color: #ee0000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 60px;
+  border: solid rgba(81, 223, 100, 0.829); }
+
+ul {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 0px;
+  margin: 20px 390px; }
+  ul .menu {
     background-color: #ee0000;
     text-decoration: none;
     display: inline-block;
     padding: 20px 60px;
     border: solid rgba(81, 223, 100, 0.829); }
-  .listas ul {
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px 0px;
-    margin: 20px 390px; }
-    .listas ul .menu {
-      background-color: #ee0000;
-      text-decoration: none;
-      display: inline-block;
-      padding: 20px 60px;
-      border: solid rgba(81, 223, 100, 0.829); }
-  .listas .section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .listas .section div {
-      width: 276px;
-      height: 405px;
-      padding: 10px 36px;
-      background-color: black;
-      border: double #fd0000; }
-    .listas .section .indumentaria {
-      height: 200px;
-      width: 200px; }
-  .listas .div__contacto {
-    text-align: center; }
-  .listas .formulario {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .section div {
+    width: 276px;
+    height: 405px;
+    padding: 10px 36px;
     background-color: black;
-    color: white; }
-  .listas .padreGrid {
+    border: double #fd0000; }
+  .section .indumentaria {
+    height: 200px;
+    width: 200px; }
+
+.div__contacto {
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: black;
+  color: white; }
+
+/* GRID */
+.padreGrid {
+  background-color: #6688e6;
+  height: 1939px;
+  width: 1936px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 151px 134px 480px 800px 36px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
+
+.titulo {
+  grid-area: titulo; }
+
+.listas {
+  grid-area: listas; }
+
+.propaganda {
+  grid-area: propaganda; }
+
+.section {
+  grid-area: section; }
+
+.footer {
+  grid-area: footer; }
+
+.padreGrid__2 {
+  height: 1137px;
+  width: 1939px; }
+
+@media (max-width: 800px) {
+  .padreGrid {
     background-color: #6688e6;
-    height: 1939px;
-    width: 1936px;
+    height: 2345px;
+    width: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 151px 134px 480px 800px 36px;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "titulo"
- "listas"
- "propaganda"
- "section"
- "footer"; }
-  .listas .titulo {
+    grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
+  .titulo {
     grid-area: titulo; }
-  .listas .listas {
+  .listas {
     grid-area: listas; }
-  .listas .propaganda {
+  .propaganda {
     grid-area: propaganda; }
-  .listas .section {
+  .section {
     grid-area: section; }
-  .listas .footer {
+  .footer {
     grid-area: footer; }
-  .listas .padreGrid__2 {
-    height: 1137px;
-    width: 1939px; }
-  @media (max-width: 800px) {
-    .listas .padreGrid {
-      background-color: #6688e6;
-      height: 2345px;
-      width: auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 151px 134px 480px 800px 36px;
-      grid-auto-columns: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas: "titulo"
- "listas"
- "propaganda"
- "section"
- "footer"; }
-    .listas .titulo {
-      grid-area: titulo; }
-    .listas .listas {
-      grid-area: listas; }
-    .listas .propaganda {
-      grid-area: propaganda; }
-    .listas .section {
-      grid-area: section; }
-    .listas .footer {
-      grid-area: footer; }
-    .listas .padreGrid__2 {
-      height: 2011px; }
-    .listas .medida__fondo {
-      width: 770px; }
-    .listas .listas {
-      height: 169px;
-      width: 739px;
-      display: flex;
-      flex-direction: row;
-      align-items: center; }
-    .listas ul {
-      margin: 0; }
-    .listas .menu {
-      background-color: #ee0000;
-      display: inline-block;
-      padding: 15px 26px;
-      border: solid rgba(81, 223, 100, 0.829); } }
-  .listas .menu:hover {
-    animation: change-color 3s; }
+  .padreGrid__2 {
+    height: 2011px; }
+  .medida__fondo {
+    width: 770px; }
+  .listas {
+    height: 169px;
+    width: 739px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  ul {
+    margin: 0; }
+  .menu {
+    background-color: #ee0000;
+    display: inline-block;
+    padding: 15px 26px;
+    border: solid rgba(81, 223, 100, 0.829); } }
+
+/* ANIMACIONES */
+.menu:hover {
+  animation: change-color 3s; }
 
 @keyframes change-color {
   10% {
@@ -177,7 +186,9 @@ footer {
     background-color: #3506df; }
   90% {
     background-color: #d615c6; } }
-  .listas .titulo {
-    transition: all 2s; }
-  .listas .titulo:hover {
-    transform: rotate(360deg) scale(2); }
+
+.titulo {
+  transition: all 2s; }
+
+.titulo:hover {
+  transform: rotate(360deg) scale(2); }
