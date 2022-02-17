@@ -102,7 +102,11 @@ footer {
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
+    grid-template-areas: "titulo"
+ "listas"
+ "propaganda"
+ "section"
+ "footer"; }
   .listas .titulo {
     grid-area: titulo; }
   .listas .listas {
@@ -127,7 +131,11 @@ footer {
       grid-auto-columns: 1fr;
       gap: 0px 0px;
       grid-auto-flow: row;
-      grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
+      grid-template-areas: "titulo"
+ "listas"
+ "propaganda"
+ "section"
+ "footer"; }
     .listas .titulo {
       grid-area: titulo; }
     .listas .listas {
