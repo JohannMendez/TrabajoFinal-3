@@ -100,11 +100,9 @@ ul {
   background-color: black;
   color: white; }
 
-footer {
-  text-decoration-line: none; }
-  footer img {
-    height: 35px;
-    width: 35px; }
+footer img {
+  height: 35px;
+  width: 35px; }
 
 /* GRID */
 .padreGrid {
