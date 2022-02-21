@@ -13,8 +13,5 @@ div {
 
 footer{
     @include textFooter($color3, $color4, $tamanio-letra);
-    img{
-        height: 35px;
-        width: 35px;
-    }
+    
 }
