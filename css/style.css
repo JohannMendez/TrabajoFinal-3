@@ -55,7 +55,7 @@ footer {
 
 /* MENU */
 .menu {
-  background-color: #1acc6a;
+  background-color: #761acc;
   text-decoration: none;
   display: inline-block;
   padding: 20px 60px;
@@ -67,7 +67,7 @@ ul {
   padding: 20px 0px;
   margin: 20px 390px; }
   ul .menu {
-    background-color: #1a49cc;
+    background-color: #761acc;
     text-decoration: none;
     display: inline-block;
     padding: 20px 60px;
@@ -171,7 +171,7 @@ footer img {
   ul {
     margin: 0; }
   .menu {
-    background-color: #1acc6a;
+    background-color: #761acc;
     display: inline-block;
     padding: 15px 26px;
     border: solid rgba(81, 223, 100, 0.829); } }
