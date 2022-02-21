@@ -55,7 +55,7 @@ footer {
 
 /* MENU */
 .menu {
-  background-color: #da2828;
+  background-color: #1a49cc;
   text-decoration: none;
   display: inline-block;
   padding: 20px 60px;
@@ -67,7 +67,7 @@ ul {
   padding: 20px 0px;
   margin: 20px 390px; }
   ul .menu {
-    background-color: #861616;
+    background-color: #1a49cc;
     text-decoration: none;
     display: inline-block;
     padding: 20px 60px;
@@ -84,7 +84,7 @@ ul {
     margin-top: 10px;
     padding: 10px 36px;
     background-color: black;
-    border: double #771717; }
+    border: double #1a49cc; }
   .section .indumentaria {
     height: 200px;
     width: 200px; }
@@ -171,7 +171,7 @@ footer img {
   ul {
     margin: 0; }
   .menu {
-    background-color: #8b1a1a;
+    background-color: #1a49cc;
     display: inline-block;
     padding: 15px 26px;
     border: solid rgba(81, 223, 100, 0.829); } }
