@@ -99,6 +99,10 @@ ul {
   background-color: black;
   color: white; }
 
+.footer img {
+  height: 35px;
+  width: 35px; }
+
 /* GRID */
 .padreGrid {
   background-color: #6688e6;
@@ -110,11 +114,7 @@ ul {
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "titulo"
- "listas"
- "propaganda"
- "section"
- "footer"; }
+  grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
 
 .titulo {
   grid-area: titulo; }
@@ -146,11 +146,7 @@ ul {
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "titulo"
- "listas"
- "propaganda"
- "section"
- "footer"; }
+    grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
   .titulo {
     grid-area: titulo; }
   .listas {
