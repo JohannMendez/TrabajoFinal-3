@@ -55,7 +55,7 @@ footer {
 
 /* MENU */
 .menu {
-  background-color: #1a49cc;
+  background-color: #1acc6a;
   text-decoration: none;
   display: inline-block;
   padding: 20px 60px;
@@ -84,7 +84,7 @@ ul {
     margin-top: 10px;
     padding: 10px 36px;
     background-color: black;
-    border: double #1a49cc; }
+    border: double #1acc6a; }
   .section .indumentaria {
     height: 200px;
     width: 200px; }
@@ -171,7 +171,7 @@ footer img {
   ul {
     margin: 0; }
   .menu {
-    background-color: #1a49cc;
+    background-color: #1acc6a;
     display: inline-block;
     padding: 15px 26px;
     border: solid rgba(81, 223, 100, 0.829); } }
