@@ -108,6 +108,7 @@ footer a {
 .padreGrid {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: aqua;
   grid-template-rows: 300px 300px 300px 300px 300px;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
