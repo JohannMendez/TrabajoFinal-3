@@ -66,6 +66,8 @@ ul {
     display: inline-block;
     padding: 20px 60px;
     border: solid rgba(81, 223, 100, 0.829); }
+  ul a {
+    text-decoration: none; }
 
 .section {
   display: flex;
