@@ -101,6 +101,10 @@ footer img {
   height: 35px;
   width: 35px; }
 
+footer a {
+  text-decoration: none;
+  font-size: 20px; }
+
 /* GRID */
 .padreGrid {
   background-color: #6688e6;
