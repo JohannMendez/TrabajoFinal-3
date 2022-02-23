@@ -102,7 +102,8 @@ ul {
   background-color: black;
   color: white;
   width: 650px;
-  height: 541px; }
+  height: 541px;
+  margin: 0px 605px; }
 
 .ratio > * {
   position: absolute;
