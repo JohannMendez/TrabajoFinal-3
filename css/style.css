@@ -101,8 +101,12 @@ ul {
   background-color: black;
   color: white; }
 
-iframe {
-  width: 100px; }
+.ratio > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px; }
 
 footer img {
   height: 35px;
