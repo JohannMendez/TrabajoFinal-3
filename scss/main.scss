@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 // VARIABLES
 @import './variables/extend';
 @import './variables/mixin';
@@ -11,19 +12,21 @@
 @import './secciones/general';
 
 .listas {
-        font-family: 'Leckerli One', cursive;
-        width: 1901px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        iframe {
-            background-color: black;
-            width: 800px;
-            height: 400px;
-            padding: 40px 565px;
-        }
+    font-family: 'Leckerli One', cursive;
+    width: 1901px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    iframe {
+        background-color: black;
+        width: 800px;
+        height: 400px;
+        padding: 40px 565px;
+    }
 }
+
 .titulo {
     color: rgb(255, 255, 255);
     font-family: 'Bungee Inline', cursive;
@@ -38,7 +41,7 @@
     padding: 40px 565px;
 }
 
-.indumentaria{
+.indumentaria {
     width: 200px;
     height: 200px;
 }
@@ -57,10 +60,11 @@ ul {
         padding: 20px 60px;
         border: solid rgba(81, 223, 100, 0.829);
     }
-    a{
+
+    a {
         font-size: 25px;
         text-decoration: none;
-        color:  rgba(81, 223, 100, 0.829);
+        color: rgba(81, 223, 100, 0.829);
     }
 }
 
@@ -87,6 +91,7 @@ ul {
         width: 200px;
     }
 }
+
 .div__contacto {
     text-align: center;
 }
@@ -108,20 +113,22 @@ ul {
     height: 639px;
 }
 
-footer{
-    img{
+footer {
+    img {
         height: 35px;
         width: 35px;
         margin-bottom: 6px;
         margin-right: 8px;
     }
-    a{
+
+    a {
         font-family: 'Leckerli One', cursive;
         text-decoration: none;
         font-size: 20px;
         margin: 50px 10px;
     }
-    a:hover{
+
+    a:hover {
         color: rgb(33, 221, 80);
     }
 }
@@ -228,43 +235,49 @@ footer{
     ul {
         margin: 0;
     }
+
     .menu {
         background-color: rgb(118, 26, 204);
         display: inline-block;
         padding: 15px 26px;
         border: solid rgba(81, 223, 100, 0.829);
     }
-    
+
 }
 
 
 
 /* ANIMACIONES */
-.menu:hover{
+.menu:hover {
     animation: change-color 3s;
 }
+
 @keyframes change-color {
-    10%{
+    10% {
         background-color: rgb(236, 163, 3);
     }
+
     20% {
         background-color: rgb(97, 165, 42);
     }
-    50%{
+
+    50% {
         background-color: rgb(6, 212, 57);
     }
-    75%{
+
+    75% {
         background-color: rgb(53, 6, 223);
     }
-    90%{
+
+    90% {
         background-color: rgb(214, 21, 198);
     }
 }
 
-.titulo{
+.titulo {
     transition: all 2s;
 }
 
-.titulo:hover{
+.titulo:hover {
     transform: rotate(360deg) scale(2)
 }
