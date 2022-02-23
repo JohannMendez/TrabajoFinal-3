@@ -75,7 +75,10 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  height: 1653px;
+  width: 1350px;
+  margin: 21px 274px; }
   .section div {
     width: 276px;
     height: 405px;
