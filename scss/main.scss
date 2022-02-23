@@ -99,6 +99,7 @@ ul {
 }
 
 .formulario {
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -106,9 +107,6 @@ ul {
     color: white;
     width: 650px;
     height: 541px;
-    ul{
-        display: flex;
-    }
 }
 
 .ratio>* {
