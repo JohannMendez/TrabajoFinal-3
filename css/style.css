@@ -123,6 +123,10 @@ footer a {
 footer a:hover {
   color: #21dd50; }
 
+.padreGrid__2 {
+  height: 1137px;
+  width: 1939px; }
+
 /* GRID */
 .padreGrid {
   background-color: #6688e6;
@@ -150,10 +154,6 @@ footer a:hover {
 
 .footer {
   grid-area: footer; }
-
-.padreGrid__2 {
-  height: 1137px;
-  width: 1939px; }
 
 @media (max-width: 800px) {
   .padreGrid {

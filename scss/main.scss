@@ -133,6 +133,11 @@ footer {
     }
 }
 
+.padreGrid__2 {
+    height: 1137px;
+    width: 1939px;
+}
+
 /* GRID */
 .padreGrid {
     background-color: rgb(102, 136, 230);
@@ -170,11 +175,6 @@ footer {
 
 .footer {
     grid-area: footer;
-}
-
-.padreGrid__2 {
-    height: 1137px;
-    width: 1939px;
 }
 
 @media (max-width: 800px) {
