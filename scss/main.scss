@@ -106,6 +106,9 @@ ul {
     color: white;
     width: 650px;
     height: 541px;
+    ul{
+        display: flex;
+    }
 }
 
 .ratio>* {
