@@ -26,6 +26,9 @@ footer {
   text-align: center;
   font-size: 30px; }
 
+.web__bordes {
+  padding: 0; }
+
 .listas {
   font-family: 'Leckerli One', cursive;
   width: 1901px;
