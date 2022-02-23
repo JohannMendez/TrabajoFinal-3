@@ -101,6 +101,9 @@ ul {
   background-color: black;
   color: white; }
 
+iframe {
+  width: 100px; }
+
 footer img {
   height: 35px;
   width: 35px;
