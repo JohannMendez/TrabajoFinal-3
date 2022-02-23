@@ -82,7 +82,7 @@ ul {
   .section div {
     width: 276px;
     height: 405px;
-    margin-top: 10px;
+    margin: 10px 1px;
     padding: 10px 36px;
     background-color: black;
     border: double #1acc6a; }
