@@ -150,7 +150,7 @@ footer a:hover {
 .ratio {
   grid-area: propaganda; }
 
-.section {
+.productos {
   grid-area: section; }
 
 .footer {
@@ -174,7 +174,7 @@ footer a:hover {
     grid-area: listas; }
   .ratio {
     grid-area: propaganda; }
-  .section {
+  .productos {
     grid-area: section; }
   .footer {
     grid-area: footer; }
