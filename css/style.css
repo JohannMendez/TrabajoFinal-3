@@ -139,13 +139,13 @@ footer a:hover {
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "titulo" "menu" "propaganda" "section" "footer"; }
+  grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
 
 .titulo {
   grid-area: titulo; }
 
 .listas {
-  grid-area: menu; }
+  grid-area: listas; }
 
 .ratio {
   grid-area: propaganda; }

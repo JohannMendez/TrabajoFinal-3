@@ -153,7 +153,7 @@ footer {
     grid-auto-flow: row;
     grid-template-areas:
         "titulo"
-        "menu"
+        "listas"
         "propaganda"
         "section"
         "footer";
@@ -164,7 +164,7 @@ footer {
 }
 
 .listas {
-    grid-area: menu;
+    grid-area: listas;
 }
 
 .ratio {
