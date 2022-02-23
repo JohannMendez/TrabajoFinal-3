@@ -100,7 +100,9 @@ ul {
   flex-wrap: nowrap;
   align-items: center;
   background-color: black;
-  color: white; }
+  color: white;
+  width: 650px;
+  height: 541px; }
 
 .ratio > * {
   position: absolute;
