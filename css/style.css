@@ -62,11 +62,11 @@ ul {
   padding: 20px 0px;
   margin: 20px 200px; }
   ul .menu {
-    background-color: #761acc;
+    background-color: #5f27cd;
     text-decoration: none;
     display: inline-block;
     padding: 20px 60px;
-    border: solid rgba(81, 223, 100, 0.829); }
+    border: solid #2e86de; }
   ul a {
     font-size: 25px;
     text-decoration: none;
