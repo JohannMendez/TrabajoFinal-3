@@ -28,7 +28,7 @@ footer {
 
 .listas {
   font-family: 'Leckerli One', cursive;
-  width: 1901px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -77,19 +77,16 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 1748px;
+  height: 1323px;
   width: 1311px;
   margin: 21px 274px; }
   .section div {
     width: 276px;
-    height: 405px;
+    height: fit-content;
     margin: 10px 1px;
     padding: 10px 36px;
     background-color: black;
     border: double #1acc6a; }
-  .section .indumentaria {
-    height: 200px;
-    width: 200px; }
 
 .div__contacto {
   text-align: center; }
@@ -106,12 +103,16 @@ ul {
   margin: 0px 605px; }
 
 .ratio > * {
-  padding: 10px;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 1130px;
   height: 639px; }
+
+.ratio {
+  display: block;
+  padding: 10px;
+  text-align: center; }
 
 footer img {
   height: 35px;
@@ -132,14 +133,18 @@ footer a:hover {
   height: 1137px;
   width: 1939px; }
 
-/* GRID */
-.padreGrid {
-  border: 3px dashed blue;
+.section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px; }
-  .padreGrid img {
+  grid-gap: 5px;
+  align-content: center;
+  justify-items: center; }
+  .section img {
     width: 100%; }
+
+@media (min-width: 700px) {
+  .ratio {
+    grid-template-columns: 1fr 2fr; } }
 
 @media (max-width: 800px) {
   .padreGrid {
@@ -165,8 +170,6 @@ footer a:hover {
     grid-area: footer; }
   .padreGrid__2 {
     height: 2011px; }
-  .medida__fondo {
-    width: 770px; }
   .listas {
     height: 169px;
     width: 739px;
