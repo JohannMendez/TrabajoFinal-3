@@ -89,8 +89,13 @@ ul {
     background-color: #c8d6e5;
     border: double #5f27cd; }
 
-.div__contacto {
-  text-align: center; }
+div .contacto {
+  padding: 60px 10px;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive; }
+
+.mb-3 {
+  padding-top: 3%; }
 
 .formulario {
   display: flex;
@@ -142,6 +147,9 @@ footer a:hover {
   justify-items: center; }
   .section img {
     width: 100%; }
+
+.otros__tam {
+  height: 930px; }
 
 @media (min-width: 700px) {
   .ratio {

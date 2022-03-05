@@ -67,7 +67,7 @@ ul {
     a {
         font-size: 25px;
         text-decoration: none;
-        color:rgb(200, 214, 229);
+        color: rgb(200, 214, 229);
     }
 }
 
@@ -90,8 +90,16 @@ ul {
     }
 }
 
-.div__contacto {
-    text-align: center;
+div {
+    .contacto {
+        padding: 60px 10px;
+        text-align: center;
+        font-family: 'Bungee Inline', cursive;
+    }
+}
+
+.mb-3{
+    padding-top: 3%;
 }
 
 .formulario {
@@ -107,13 +115,14 @@ ul {
 }
 
 .ratio>* {
-    position:relative;
+    position: relative;
     top: 0;
     left: 0;
     width: 1130px;
     height: 639px;
 }
-.ratio{
+
+.ratio {
     display: block;
     padding: 10px;
     text-align: center;
@@ -156,109 +165,113 @@ footer {
     }
 }
 
+.otros__tam{
+    height: 930px;
+}
 
 @media (min-width: 700px) {
     .ratio {
         grid-template-columns: 1fr 2fr;
     }
 }
-        @media (max-width: 800px) {
-            .padreGrid {
-                background-color: rgb(102, 136, 230);
-                height: 2345px;
-                width: auto;
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 151px 134px 480px 800px 36px;
-                grid-auto-columns: 1fr;
-                gap: 0px 0px;
-                grid-auto-flow: row;
-                grid-template-areas:
-                    "titulo"
-                    "listas"
-                    "propaganda"
-                    "section"
-                    "footer";
-            }
 
-            .titulo {
-                grid-area: titulo;
-            }
+@media (max-width: 800px) {
+    .padreGrid {
+        background-color: rgb(102, 136, 230);
+        height: 2345px;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 151px 134px 480px 800px 36px;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "titulo"
+            "listas"
+            "propaganda"
+            "section"
+            "footer";
+    }
 
-            .listas {
-                grid-area: listas;
-            }
+    .titulo {
+        grid-area: titulo;
+    }
 
-            .ratio {
-                grid-area: propaganda;
-            }
+    .listas {
+        grid-area: listas;
+    }
 
-            .section {
-                grid-area: section;
-            }
+    .ratio {
+        grid-area: propaganda;
+    }
 
-            .footer {
-                grid-area: footer;
-            }
+    .section {
+        grid-area: section;
+    }
 
-            .padreGrid__2 {
-                height: 2011px;
-            }
+    .footer {
+        grid-area: footer;
+    }
 
-            .listas {
-                height: 169px;
-                width: 739px;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-            }
+    .padreGrid__2 {
+        height: 2011px;
+    }
 
-            ul {
-                margin: 0;
-            }
+    .listas {
+        height: 169px;
+        width: 739px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-            .menu {
-                background-color: rgb(118, 26, 204);
-                display: inline-block;
-                padding: 15px 26px;
-                border: solid rgba(81, 223, 100, 0.829);
-            }
+    ul {
+        margin: 0;
+    }
 
-        }
+    .menu {
+        background-color: rgb(118, 26, 204);
+        display: inline-block;
+        padding: 15px 26px;
+        border: solid rgba(81, 223, 100, 0.829);
+    }
+
+}
 
 
 
-        /* ANIMACIONES */
-        .menu:hover {
-            animation: change-color 3s;
-        }
+/* ANIMACIONES */
+.menu:hover {
+    animation: change-color 3s;
+}
 
-        @keyframes change-color {
-            10% {
-                background-color: rgb(236, 163, 3);
-            }
+@keyframes change-color {
+    10% {
+        background-color: rgb(236, 163, 3);
+    }
 
-            20% {
-                background-color: rgb(97, 165, 42);
-            }
+    20% {
+        background-color: rgb(97, 165, 42);
+    }
 
-            50% {
-                background-color: rgb(6, 212, 57);
-            }
+    50% {
+        background-color: rgb(6, 212, 57);
+    }
 
-            75% {
-                background-color: rgb(53, 6, 223);
-            }
+    75% {
+        background-color: rgb(53, 6, 223);
+    }
 
-            90% {
-                background-color: rgb(214, 21, 198);
-            }
-        }
+    90% {
+        background-color: rgb(214, 21, 198);
+    }
+}
 
-        .titulo {
-            transition: all 2s;
-        }
+.titulo {
+    transition: all 2s;
+}
 
-        .titulo:hover {
-            transform: rotate(360deg) scale(2)
-        }
+.titulo:hover {
+    transform: rotate(360deg) scale(2)
+}
