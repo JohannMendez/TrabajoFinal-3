@@ -106,7 +106,8 @@ div .contacto {
   color: white;
   width: 650px;
   height: 541px;
-  margin: 0px 605px; }
+  margin: 0px 605px;
+  margin-bottom: 25px; }
 
 .ratio > * {
   position: relative;
