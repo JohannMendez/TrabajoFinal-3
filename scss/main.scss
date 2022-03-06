@@ -53,13 +53,13 @@ ul {
     text-decoration: none;
     display: inline-block;
     padding: 20px 0px;
-    margin: 20px 110px;
+    margin: 20px 0px;
 
     .menu {
         background-color: rgb(95, 39, 205);
         text-decoration: none;
         display: inline-block;
-        padding: 20px 60px;
+        padding: 15px 50px;
         border: solid rgb(200, 214, 229);
     }
 
@@ -108,10 +108,11 @@ div {
     align-items: center;
     background-color: black;
     color: white;
-    width: 650px;
-    height: 541px;
-    margin: 0px 605px;
-    margin-bottom: 25px;
+    text-decoration: none;
+    width: 38vw;
+    height: 59vh;
+    margin: 1em 572px;
+    margin-bottom: 10px;
 }
 
 .ratio>* {
@@ -250,5 +251,26 @@ footer {
 
     .ratio > * {
         width: 90vw;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #341f97;
+        color: #c8d6e5;
+        width: 650px;
+        height: 541px;
+        margin: 1em 10em;
+    }
+}
+
+@media (max-width: 800px) {
+    .section{
+        height: 290vh;
+    }
+    .formulario{
+        margin: 1em 3em;
     }
 }
