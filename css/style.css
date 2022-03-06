@@ -80,7 +80,7 @@ ul {
   flex-wrap: wrap;
   height: 1962px;
   width: 1311px;
-  margin: 21px 274px; }
+  margin: 21px auto; }
   .section div {
     width: 276px;
     height: fit-content;
